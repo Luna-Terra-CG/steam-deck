@@ -22,6 +22,9 @@
 		"Better Blur": {
 			"Blur Strength": "3",
 			"Opacity": "0.4"
+		},
+		"Focus Highlight Color": {
+			"Round Compatibility": "No"
 		}
 	},
 	"patches": {
@@ -252,18 +255,24 @@
 			},
 			"components": []
 		},
-		"Focus highlight color compatability": {
+		"Use accent for focus outline": {
 			"type": "checkbox",
 			"default": "No",
 			"values": {
 				"Yes": {
-					"tweaks/highlight_compat.css": [
+					"tweaks/highlight_accent.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
-				"No": {}
+				"No": {
+					"tweaks/highlight_overlay.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
 			},
 			"components": []
 		},
