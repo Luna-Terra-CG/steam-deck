@@ -1702,8 +1702,13 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._jdZzm8ZV_FamilyGroup ._jdZzm8ZV_FamilyNameRow ._jdZzm8ZV_FamilyName {
   color: var(--ctp-accent-color);
 }
+/* family icon */
+._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP>svg {
+  color: var(--ctp-text);
+}
 /* profile background */
-._kkA7z2zc_FamilyMemberRow {
+._kkA7z2zc_FamilyMemberRow,
+._2LyGIHuQ8SFKb5T262YUvg.GamepadMode, .GamepadMode ._2LyGIHuQ8SFKb5T262YUvg {
   background-color: var(--ctp-surface0);
 }
 /* role icon */
@@ -2299,7 +2304,7 @@ STEAM MENU
 .BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] div:first-child:nth-last-child(3) {
   background: var(--ctp-accent-color);
 }
-/* mainmenu highlight (taken from chromahon) */
+/* mainmenu highlight */
 [class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) {
   background: var(--ctp-surface0);
 }
@@ -2618,15 +2623,6 @@ DECKY LOADER
 /* generic background */
 ._2RXNRKWY8jL7xwgGYUfLfU div:has(style) {
   background: var(--ctp-base);
-  margin-top: 0px !important;
-}
-/* fix tab blur */
-body.WindowFocus:has(._3LM_ZckJp5yJYrL1OI_WqW) ._2JobstxtZVYF3078DblN2M,
-._3LM_ZckJp5yJYrL1OI_WqW {
-  padding-top: var(--basicui-header-height);
-}
-body.WindowFocus:has(._3LM_ZckJp5yJYrL1OI_WqW) ._1E_SL1bTibeQ3PQRBZoS_- {
-  --gamepadui-header-background-opacity: 0 !important;
 }
 /* css loader */
 /* store */
@@ -2716,18 +2712,6 @@ body.WindowFocus:has(._3LM_ZckJp5yJYrL1OI_WqW) ._1E_SL1bTibeQ3PQRBZoS_- {
 }
 #sgdb-wrap .spinnyboi {
   background: var(--ctp-base) !important;
-}
-/* fix tab blur */
-body.WindowFocus:has(#sgdb-wrap) ._1E_SL1bTibeQ3PQRBZoS_- {
-  --gamepadui-header-background-opacity: 0 !important;
-}
-#sgdb-wrap {
-  margin-top: 0px !important;
-}
-body.WindowFocus:has(#sgdb-wrap) ._2JobstxtZVYF3078DblN2M,
-#sgdb-wrap .sgdb-asset-toolbar,
-#sgdb-wrap #local-images-container {
-  padding-top: var(--basicui-header-height);
 }
 /* tabmaster */
 /* background */
@@ -2856,16 +2840,6 @@ button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
 }
 ._2AspdzRb6jdNiu9dLgTm5Q.gpfocuswithin ._3K3BxF9C7wIjPeECKwAMFj {
   box-shadow: 0px 12px 16px 0px rgba(var(--ctp-crust-rgb), .32);
-}
-/* fix tab blur */
-body.WindowFocus:has(._2n5v3uyIbflPsVVUmf0vNS div[role=grid]) .P_AlEAb9tP0lcq1K5lA_z {
-  padding-top: 0px;
-}
-body.WindowFocus:has(._2n5v3uyIbflPsVVUmf0vNS div[role=grid]) ._2JobstxtZVYF3078DblN2M {
-  padding-top: var(--basicui-header-height);
-}
-._2n5v3uyIbflPsVVUmf0vNS {
-  margin-top: var(--basicui-header-height);
 }
 /* Media upload */
 ._EifR99lo_ModalPosition > ._EifR99lo_GamepadDialogContent {
